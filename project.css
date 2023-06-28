@@ -1,0 +1,27 @@
+*{
+    background-color: aquamarine;
+    
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 10px;
+    margin-top: auto;
+
+}
+.logo{
+    color: rgb(177, 59, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    font-size: larger;
+
+}
+
+.righthead li{
+    color: antiquewhite;
+    display: inline-block;
+    padding: 20px;
+}
