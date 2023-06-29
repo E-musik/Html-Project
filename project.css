@@ -44,11 +44,13 @@
     color: rgb(177, 59, 16);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 70px;
+    font-weight: 100;
 }
 
 .first h4{
     color: white;
     font-size: 30px;
+    font-weight: 100;
 }
 .first button{
     color: white;;
@@ -69,5 +71,68 @@
     display: flex;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
 
+}
+
+.second .secondright{
+    display: contents;
+    display: table-column-group;
+    align-items: center;
+    justify-content: center;
+    padding: 150px;
+    color: white;
+
+}
+
+.second img{
+    width: 300px;
+    height: 300px;
+}
+
+.secondright h6{
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(177, 59, 16);
+
+}
+
+.secondright h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.secondright h5{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.secondright button{
+    background-color: rgb(226, 77, 23);
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: white;
+    color: white;
+}
+.third{
+    align-content: center;
+}
+
+.third h6{
+    
+    color: rgb(177, 59, 16);
+    font-weight: 100;
+    font-size: 15px;
+    
+}
+
+.third h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
 }
