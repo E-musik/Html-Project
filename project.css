@@ -1,5 +1,5 @@
 *{
-    background-color: aquamarine;
+    background-color: rgb(12, 13, 31);
     
 
 }
@@ -22,7 +22,7 @@
 }
 
 .righthead li{
-    color: aliceblue;
+    color: white;
     display: inline-block;
     padding: 5px;
     text-decoration: none;
@@ -96,17 +96,19 @@
     font-weight: 100;
     font-size: 15px;
     color: rgb(177, 59, 16);
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .secondright h2{
     font-size: 30px;
     font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .secondright h5{
     font-weight: 100;
     font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .secondright button{
@@ -118,21 +120,217 @@
     font-size: 20px;
     box-shadow: white;
     color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .third{
     align-content: center;
+    margin-left: 40%;
+    padding: 10px;
+    justify-content: space-between;
+    font-weight: 100;
+    
+
+}
+
+.g{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.g .do-nut{
+    background-color: white;
+    font-weight: 100;
+}
+
+.g .burger{
+    background-color: white;
+    font-weight: 100;
+}
+
+.g .chicken{
+    background-color: white;
+    font-weight: 100;
+}
+
+.g h4{
+    background-color: white;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.g h5{
+    background-color: white;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.g h6{
+    background-color: white;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .third h6{
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(177, 59, 16);
     font-weight: 100;
-    font-size: 15px;
+    font-size: 30px;
     
 }
 
 .third h3{
     color: white;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forth{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.forth .f{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.f{
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center;
+}
+
+.forth img{
+    width: 90px;
+    height: 90px;
+    margin-left: 70px;
+
+}
+
+.forth h6{
+    color: rgb(177, 59, 16);
+    margin-left: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.forth h3{
+    color: white;
+    font-weight: 100;
+    margin-left: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.f h4{
+    color:
+rgb(177, 59, 16);
+    font-weight: 100;
+    margin-left: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.f h5{
+    color: white;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    
+}
+
+.fifth{
+    border: 2px solid #ffff;
+    padding: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: black;
+    background-color: #ffff;
+    text-align: center;
+
+}
+
+.fifth h3{
+    background-color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     font-weight: 100;
+
+}
+
+.fifth button{
+    color: #ffff;
+    background-color: rgb(177, 59, 16);
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+    padding: 60px;
+
+}
+
+.menu h4{
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    padding-left: 40px;
+
+}
+
+.menu li{
+    color: rgb(23, 83, 107);
+    display: inline;
+       
+}
+
+.our h4{
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    padding-left: 40px;
+    
+}
+
+.our li{
+    color: rgb(23, 83, 107);
+    display: inline;
+       
+}
+
+.Info h4{
+    color: #ffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    padding-left: 40px;
+    
+}
+
+.Info li{
+    color: rgb(23, 83, 107);
+    display: inline;
+       
+}
+
+.media button{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(177, 59, 16);
+
 }
