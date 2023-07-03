@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0%;
-    padding: 10px;
+    padding: 40px;
     margin-top: auto;
 
 }
@@ -19,6 +19,8 @@
     font-size: 30px;
     margin-left: 200px;
     font-weight: 100;
+    cursor: default;
+    
 
 }
 
@@ -48,6 +50,7 @@
     justify-content: space-between;
     margin-left: 450px;
     margin-right: 450px;
+    line-height: 3px;
 }
 
 .firstright{
@@ -104,6 +107,7 @@
     justify-content: center;
     padding: 150px;
     color: white;
+    line-height: 3px;
 
 }
 
@@ -151,6 +155,7 @@
 
 .third .thirdcenter{
     padding: 6px;
+    line-height: 3px;
 }
 
 
@@ -176,11 +181,11 @@
 }
 .thirdbody{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 0%;
     margin-left: 15%;
     margin-right: 15%;
-    
+    line-height: 3px;
     
     
 }
@@ -189,6 +194,7 @@
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffff;
+    margin-left: 80px;
     
 }
 
@@ -196,19 +202,20 @@
     color: rgb(71, 69, 69);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffff;
+    margin-left: 80px;
 }
 
 .thirdbody h6{
     color: rgb(177, 59, 16);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffff;
+    margin-left: 80px;
 }
 
 .thirdbody .do-nut{
     background-color: #ffff;
     width: 320px;
     height: 450px;
-    
     
 }
 
@@ -228,19 +235,18 @@
 }
 
 
-
-
 .forth .f{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    
+    line-height: 3px;
 }
 
 .f{
     justify-content: space-evenly;
     margin: auto;
     text-align: center;
+    
 }
 
 .forth img{
@@ -290,6 +296,7 @@
     background-color: #ffff;
     text-align: center;
     border-radius: 20px;
+    line-height: 3px;
     
 
 }
@@ -299,6 +306,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     font-weight: 100;
+   
 
 }
 
@@ -315,22 +323,22 @@
     width: 130px;
     height: 55px;
     transition: 0.25s;
+    cursor: pointer;
 }
 
-footer{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: auto;
-    padding: 60px;
 
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
 }
 
 .menu h4{
     color: #ffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
-    padding-left: 40px;
-
+    padding-left: 30px;
+    
 }
 
 .menu li{
@@ -342,6 +350,7 @@ footer{
 .menu li:hover{
     cursor: pointer;
     color: #ffff;
+    transform: translateX(-70px);
     
 }
 
@@ -362,6 +371,7 @@ footer{
 .our li:hover{
     cursor: pointer;
     color: #ffff;
+    
 
 }
 
@@ -387,16 +397,18 @@ footer{
 
 .media a{
     color: #ffff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50%;
     background-color: rgb(236, 77, 19);
-    height: 3px;
+    
 
+    
 }
 
 .media a:hover{
     background-color: #ffff;
     color: rgb(236, 77, 19);
     transition: 0.25s;
+    padding: 25px;
 
 }
