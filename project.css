@@ -18,16 +18,29 @@
     padding: 50px;
     font-size: 30px;
     margin-left: 200px;
+    font-weight: 100;
 
 }
 
 .righthead li{
+    display: inline-flex;
+    justify-content: center;
+    align-content: space-between;
+    padding: auto;
+
+}
+.righthead li a{
     color: white;
-    display: inline-block;
     padding: 5px;
     text-decoration: none;
-    margin-left: 10px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all, 0.3s ease;
+}
 
+.righthead li a:hover{
+    color: rgb(177, 59, 16);
+    transition: all, 0.3s ease;
 }
 .first{
     display: flex;
@@ -57,11 +70,18 @@
     background-color: rgb(226, 77, 23);
     border-radius: 10px;
     margin-right: 40px;
-    width: 200px;
+    width: 120px;
     height: 50px;
     font-size: 20px;
 }
 
+.first button:hover{
+    cursor: pointer;
+    width: 130px;
+    height: 55px;
+    transition: 0.5s;
+    
+}
 .first img{
     width: 300px;
     height: 300px;
@@ -115,92 +135,106 @@
     background-color: rgb(226, 77, 23);
     border-radius: 10px;
     margin-right: 40px;
-    width: 150px;
+    width: 120px;
     height: 50px;
     font-size: 20px;
     box-shadow: white;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.third{
+
+.secondright button:hover{
+    width: 130px;
+    height: 55px;
+    transition: 0.25s;
+}
+
+.third .thirdcenter{
+    padding: 6px;
+}
+
+
+.third .thirdcenter h6{
     align-content: center;
-    margin-left: 40%;
-    padding: 10px;
-    justify-content: space-between;
-    font-weight: 100;
-    
-
-}
-
-.g{
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-
-}
-
-.g .do-nut{
-    background-color: white;
-    font-weight: 100;
-}
-
-.g .burger{
-    background-color: white;
-    font-weight: 100;
-}
-
-.g .chicken{
-    background-color: white;
-    font-weight: 100;
-}
-
-.g h4{
-    background-color: white;
-    font-weight: 100;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.g h5{
-    background-color: white;
-    font-weight: 100;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.g h6{
-    background-color: white;
-    font-weight: 100;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.third h6{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(177, 59, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+.third .thirdcenter h3{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     font-size: 30px;
+}
+.thirdbody{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
     
 }
 
-.third h3{
-    color: white;
-    font-size: 50px;
-    font-weight: 100;
+.thirdbody h4{
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffff;
+    
 }
 
-.forth{
-    margin: 0px;
-    padding: 0px;
-    position: relative;
+.thirdbody h5{
+    color: rgb(71, 69, 69);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffff;
 }
+
+.thirdbody h6{
+    color: rgb(177, 59, 16);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffff;
+}
+
+.thirdbody .do-nut{
+    background-color: #ffff;
+    width: 320px;
+    height: 450px;
+    
+    
+}
+
+
+.thirdbody .burger{
+    background-color: #ffff;
+    width: 320px;
+    height: 450px;
+    
+}
+
+.thirdbody .chicken{
+    background-color: #ffff;
+    width: 320px;
+    height: 450px;
+    
+}
+
+
+
 
 .forth .f{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    
 }
 
 .f{
@@ -232,8 +266,7 @@
 }
 
 .f h4{
-    color:
-rgb(177, 59, 16);
+    color:rgb(177, 59, 16);
     font-weight: 100;
     margin-left: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -256,6 +289,8 @@ rgb(177, 59, 16);
     box-shadow: black;
     background-color: #ffff;
     text-align: center;
+    border-radius: 20px;
+    
 
 }
 
@@ -269,11 +304,17 @@ rgb(177, 59, 16);
 
 .fifth button{
     color: #ffff;
-    background-color: rgb(177, 59, 16);
+    background-color: rgb(218, 78, 27);
     width: 120px;
     height: 50px;
     border-radius: 10px;
 
+}
+
+.fifth button:hover{
+    width: 130px;
+    height: 55px;
+    transition: 0.25s;
 }
 
 footer{
@@ -298,6 +339,12 @@ footer{
        
 }
 
+.menu li:hover{
+    cursor: pointer;
+    color: #ffff;
+    
+}
+
 .our h4{
     color: #ffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -310,6 +357,12 @@ footer{
     color: rgb(23, 83, 107);
     display: inline;
        
+}
+
+.our li:hover{
+    cursor: pointer;
+    color: #ffff;
+
 }
 
 .Info h4{
@@ -326,11 +379,24 @@ footer{
        
 }
 
-.media button{
-    
-    width: 50px;
-    height: 50px;
+.Info li:hover{
+    cursor: pointer;
+    color: #ffff;
+
+}
+
+.media a{
+    color: #ffff;
+    padding: 10px;
     border-radius: 50%;
-    background-color: rgb(177, 59, 16);
+    background-color: rgb(236, 77, 19);
+    height: 3px;
+
+}
+
+.media a:hover{
+    background-color: #ffff;
+    color: rgb(236, 77, 19);
+    transition: 0.25s;
 
 }
