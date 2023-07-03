@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    
 
     
 }
@@ -150,6 +151,7 @@
     width: 130px;
     height: 55px;
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .third .thirdcenter{
@@ -186,7 +188,6 @@
     margin-right: 15%;
     line-height: 3px;
     
-    
 }
 
 .thirdbody h4{
@@ -194,6 +195,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffff;
     margin-left: 80px;
+    
     
 }
 
@@ -215,7 +217,8 @@
     background-color: #ffff;
     width: 320px;
     height: 450px;
-    
+    border: rgb(12, 13, 31);
+    border-radius: 50px;
 }
 
 
@@ -223,14 +226,16 @@
     background-color: #ffff;
     width: 320px;
     height: 450px;
-    
+    border: rgb(12, 13, 31);
+    border-radius: 50px;
 }
 
 .thirdbody .chicken{
     background-color: #ffff;
     width: 320px;
     height: 450px;
-    
+    border: rgb(12, 13, 31);
+    border-radius: 50px;
 }
 
 
@@ -343,7 +348,7 @@
 .menu li{
     color: rgb(23, 83, 107);
     display: inline;
-       
+    
 }
 
 .menu li:hover{
