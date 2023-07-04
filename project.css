@@ -265,14 +265,16 @@
     margin-left: 800px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    line-height: 3px;
 }
+
 
 .forth h3{
     color: white;
     font-weight: 100;
     margin-left: 700px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    
 }
 
 .f h4{
@@ -335,6 +337,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 60px;
+    font-weight: 100;
 }
 
 .menu h4{
@@ -343,18 +346,22 @@
     font-weight: 100;
     padding-left: 30px;
     
+    
 }
 
 .menu li{
     color: rgb(23, 83, 107);
     display: inline;
+    font-weight: 100;
     
 }
 
 .menu li:hover{
     cursor: pointer;
     color: #ffff;
-    transform: translateX(-70px);
+    font-size: 20px;
+    position: static;
+    font-weight: 100;
     
 }
 
@@ -369,13 +376,16 @@
 .our li{
     color: rgb(23, 83, 107);
     display: inline;
+    font-weight: 100;
        
 }
 
 .our li:hover{
     cursor: pointer;
     color: #ffff;
-    
+    font-size: 20px;
+    position: static;
+    font-weight: 100;
 
 }
 
@@ -390,13 +400,17 @@
 .Info li{
     color: rgb(23, 83, 107);
     display: inline;
+    font-weight: 100;
        
 }
 
 .Info li:hover{
     cursor: pointer;
     color: #ffff;
-
+    font-size: 20px;
+    position: static;
+    transition: 0.25px;
+    font-weight: 100;
 }
 
 .media a{
@@ -404,9 +418,7 @@
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(236, 77, 19);
-    
-
-    
+       
 }
 
 .media a:hover{
